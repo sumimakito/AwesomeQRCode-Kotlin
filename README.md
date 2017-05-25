@@ -40,9 +40,8 @@ dependencies {
 ```kotlin
 Thread{
  kotlin.run {
-  var qrCode: Bitmap = AwesomeQRCode.Renderer().contents(contents)
-  									.size(800).margin(20).render()
- }
+  var qrCode: Bitmap = AwesomeQRCode.Renderer().contents(contents).size(800).margin(20).render()
+  }
 }.start()
 ```
 
